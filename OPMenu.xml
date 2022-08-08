@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menuDocument>
+  <menu>
+    <subMenu id="WebbLibOpMenu">
+      <label>Webb</label>
+      <insertBefore />
+      <scriptItem id="Show Node Presets">argv
+        <label>Show Node Presets</label>
+        <scriptCode><![CDATA[
+import webb.show_node_presets
+webb.show_node_presets.main(kwargs)
+      ]]></scriptCode>
+      </scriptItem>
+      <separatorItem id="webb_opmenu_separatorItem01"/>
+    <scriptItem id="overwrite hda">
+        <label>Show Node Presets</label>
+        <scriptCode><![CDATA[
+import webb.show_node_presets
+webb.show_node_presets.main(kwargs)
+      ]]></scriptCode>
+    </scriptItem>
+    </subMenu>
+  </menu>
+</menuDocument>

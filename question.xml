@@ -1,0 +1,15 @@
+<mainMenu>
+  <menuBar>
+    <subMenu id="my_submenu">
+      <label>My Scripts</label>
+      <scriptItem id="h.second_item">
+        <label>My Second Item</label>
+        <scriptPath>$HOME/scripts/generic_script.py</scriptPath>
+        <scriptArgs>-q -n camera</scriptArgs>
+      </scriptItem>
+    </subMenu>
+  </menuBar>
+</mainMenu>
+
+<!-- generic_script.py -->
+print(kwag)
